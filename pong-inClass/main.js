@@ -74,10 +74,6 @@ function gameLoop(currentTime = 0) {
  * @param  {Number} deltaTime How much time has elapsed since the last time this was called.
  */
 function update(deltaTime) {
-  // textX = textX + 100 * dt;
-  // if (textX > CANVAS_WIDTH){
-  //     textX = 0
-  // }
 
   if (keys.w) {
     // player1Y -= PADDLE_SPEED * dt;
