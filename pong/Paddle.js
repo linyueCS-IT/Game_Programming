@@ -60,10 +60,8 @@ export default class Paddle {
   /**
    * Draw the paddle to the screen.
    *
-   * @param {CanvasRenderingContext2D} context
    */
   render(context) {
     context.fillRect(this.x, this.y, this.width, this.height);
-    // context.fillStyle = "white";
   }
 }
